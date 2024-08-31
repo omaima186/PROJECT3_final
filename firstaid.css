@@ -1,0 +1,136 @@
+#first-aid {
+        background-color:rgba(0, 60, 113, 0.8) ;
+        height: 1050px;
+        width:100%;
+        margin:0px;
+        box-sizing: border-box;
+        border:1px solid #F5F5DC;
+        font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-of-first-aid {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    line-height: 100%;
+}
+
+.header-of-first-aid h1 {
+    margin-left: 100px;
+    margin-top: 60px;
+    font-size: 55px;
+    color: white;
+    font-weight: bold;
+    transition:0.5s all ease;
+    }
+
+.header-of-first-aid h2 {
+    text-transform: uppercase;
+    color:white;
+    transition:0.5s all ease; 
+    margin-left: 100px;
+    margin-top: 10px;
+} 
+
+.first-aid-main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.first-aid-boxes {
+    border : 1px solid #ddd;
+    width:510px;
+    height:199px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 100px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px#9fdef7;
+    background-color: #FFFFE0;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.first-aid-boxes:hover {
+    color:#333333;
+    background:#fcfcd1;
+    box-shadow: 0 1px 6px rgba(17, 17, 17, 0.28);
+    transform:translateY(-3px);
+ }
+
+.image-sub-box {
+    border : 1px solid #ddd;
+    width: 40%;
+    margin:3px;
+}
+
+.image-sub-box img {
+    width: 100%;
+    height: 100%;
+}
+
+.hp-sub-box {
+    margin:3px;
+    width: 60%;
+}
+
+.hp-sub-box h2{
+    margin-left: 20px;
+    color:#333333;
+}
+
+.hp-sub-box li {
+    font-size: 13px;
+    margin: 12px 0;
+}
+
+.first-aid-footer {
+    background-color:none ;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .first-aid-footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .first-aid-footer-box {
+    box-shadow: 0 0 10px#79cff1;
+    background-color: #FFFFE0;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .first-aid-footer-box:hover {
+    color:#0c0202;
+    background:#fcfcd1;
+    box-shadow: 0 1px 6px rgba(17, 17, 17, 0.28);
+    transform:translateY(-3px);
+ }
+  
+  .first-aid-footer-box p {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .learn-more {
+    background-color: #1a87b3;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .learn-more:hover {
+    background:#146281;
+    box-shadow: 0 1px 6px rgba(17, 17, 17, 0.28);
+    transform:translateY(-3px);
+ }
+
+
+

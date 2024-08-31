@@ -1,0 +1,99 @@
+/*feed-comp-section*/
+#feed-comp {
+    margin:0px;
+    box-sizing: border-box;
+    border:1px solid #2a35ca;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 60, 113, 0.8);
+}
+
+.feed-comp-container {
+	width: 70%;
+	margin: 100px 185px;
+	padding: 20px;
+    border-radius: 20px;
+	background-color:none;
+	border: 1px solid #6163ec;
+	box-shadow: 0 0 10px rgba(9, 44, 77, 0.842);
+}
+
+.feed-comp-header {
+    text-align: left;
+    padding: 0px;
+    margin: 0px;
+    line-height: 100%;
+}
+
+.feed-comp-header h1 {
+    margin-top: 20px;
+    font-size: 45px;
+    color: white;
+    font-weight: bold;
+    transition:0.5s all ease;
+    }
+
+.feed-comp-header h2 {
+    text-transform: uppercase;
+    color: white;
+    transition:0.5s all ease; 
+} 
+
+
+label {
+	display: block;
+	margin-bottom: 10px;
+    color:white;
+}
+
+input, select, textarea {
+	width: 98%;
+	height: 40px;
+	margin-bottom: 20px;
+    background-color: #F5F5DC;
+	padding: 10px;
+    border-radius: 10px;
+	border: 1px solid #ccc;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(102, 6, 6, 0.842);
+}
+
+input:hover, select:hover, textarea:hover {
+    color:#333333;
+    background:#c4bfc0;
+    box-shadow: 0 1px 6px rgba(17, 17, 17, 0.28);
+    transform:translateY(-3px);   
+}
+
+textarea {
+	height: 100px;
+}
+
+button[type="submit"] {
+	background-color: #6e82f5;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button[type="reset"] {
+	background-color: #fff;
+	color: #4a63f3;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+    margin-left: 20px;
+}
+
+button[type="reset"]:hover, button[type="submit"]:hover {
+    color:#F5F5DC;
+    background:rgb(24, 110, 221);
+    box-shadow: 0 1px 6px rgba(17, 17, 17, 0.28);
+    transform:translateY(-3px);
+}
+
+
+
+

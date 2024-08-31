@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback & Complaints</title>
+    <link rel="stylesheet" href="feed-comp.css">
+</head>
+<body>
+
+    <!--Feedback & complaint section-->
+    <section id="feed-comp">
+	<div class="feed-comp-container">
+        <div class="feed-comp-header">
+		<h1>Feedback & Complaints</h1>
+		<h2>Help Us Improve</h2>
+        </div>
+
+		<form id="feedback-form">
+			<label for="name">Full Name:</label>
+			<input type="text" id="name" name="name" required>
+			
+			<label for="email">Email Address:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="phone">Phone Number:</label>
+			<input type="tel" id="phone" name="phone" required>
+			
+			<label for="message">Message:</label>
+			<textarea id="message" name="message" required></textarea>
+			
+			<label for="category"><b>Complaint Category:</b></label>
+			<select id="category" name="category" required>
+				<option value="">Select</option>
+				<option value="Medical Services">Medical Services</option>
+				<option value="Staff Behavior">Staff Behavior</option>
+				<option value="Facilities">Facilities</option>
+				<option value="Billing/Insurance">Billing/Insurance</option>
+				<option value="Other">Other</option>
+			</select>
+			
+			<label for="resolution">Resolution Expected:</label>
+			<select id="resolution" name="resolution" required>
+				<option value="">Select</option>
+				<option value="Immediate Response">Immediate Response</option>
+				<option value="Within 24 hours">Within 24 hours</option>
+				<option value="Within 3 working days">Within 3 working days</option>
+				<option value="Other">Other</option>
+			</select>
+			
+			<button type="submit">Send Feedback/Complaint</button>
+			<button type="reset">Clear Form</button>
+		</form>	
+	</div>
+	
+</section>
+</body>
+</html>
+
+
